@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Login and Sign-up</title>
+    <link rel="stylesheet" type="text/css" href="login3.css">
+</head>
+<body>
+    <div class="overall">
+        <div class="container1" id="sign-in-container">
+            <h1 class="signin">SIGN-IN</h1>
+            <form>
+                <div class="user">
+                    <input type="text" id="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="user">
+                    <input type="password" id="password" placeholder=" " required>
+                    <label for="password">Password</label>
+                </div>       
+                <input type="submit" class="btn"><br>
+                <p>
+                    <a href="#">Forget Password</a>
+                </p>
+            </form>
+        </div>
+        <div class="container2" id="sign-up-container">
+            <h1 class="signup">SIGN-UP</h1>
+            <form>
+                <div class="registration">
+                    <div class="user">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="user">
+                        <input type="email" id="email_signup" placeholder=" " required>
+                        <label for="email_signup">Email</label>
+                    </div>
+                    <div class="user">
+                        <input type="password" id="password_signup" placeholder=" " required>
+                        <label for="password_signup">Password</label>
+                    </div>
+                </div>    
+                <input type="submit" class="btn">
+            </form>  
+        </div>
+        <div class="toggle_container">
+            <div class="toggle">
+                <div class="toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p class="details">Enter your personal details to use all of site features</p>
+                    <button class="btn1" id="login">Sign In</button>
+                </div>
+                <div class="toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p class="details">Register with your personal details to use all of site features</p>
+                    <button class="btn1" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login3.js"></script>
+</body>
+</html>
